@@ -2,6 +2,7 @@
     "basics": {
         "name": "Jason Dobies",
         "website": "http://jdob.github.io",
+        "picture": "./headshot-box.jpg",
         "location": {
             "countryCode": "US",
             "region": "New Jersey"
