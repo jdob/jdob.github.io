@@ -39,7 +39,7 @@
             "summary": "Developer and Team Lead for projects related to Red Hat OpenStack with the following responsibilities:",
             "highlights": [
                 "Active upstream developer on the Heat project and core developer on the TripleO project",
-                "Team lead for the management API team for Red Hat OpenStack Platform director",
+                "Team Lead for the management API team for Red Hat OpenStack Platform director",
                 "Release lead for the Red Hat OpenStack director 9.0 release"
             ]
         },
@@ -71,13 +71,6 @@
                 "CSC1052 - Algorithms and Data Structures II",
                 "CSC2053 - Algorithms and Data Structures III"
             ]
-        },
-        {
-            "company": "BarclayCard US",
-            "position": "Software Developer",
-            "startDate": "2005-12-01",
-            "endDate": "2006-06-30",
-            "summary": "Software developer working on functionality for both the frontend and backend systems related to their online banking functionality."
         },
         {
             "company": "Gestalt LLC",
