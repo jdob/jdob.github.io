@@ -26,8 +26,11 @@
             "position": "Principal Technical Marketing Manager",
             "website": "http://redhat.com",
             "startDate": "2016-09-01",
+            "summary": "Lead for technical strategy and direction for ISV partners in the OpenShift ecosystem",
             "highlights": [
-                "Technical strategy and direction lead for ISV partners in the OpenShift ecosystem"
+                "Worked with partners to architect a technical integration between their products and OpenShift Container Platform across a variety of topics including network plugins, storage plugins, image scanning, runtime security, and containerized product support", 
+                "Created and maintained technical assets for the enablement of OpenShift partners and customers, including demo applications, documentation, blog entries, and presentations",
+                "Presenter at both conferences (e.g. Red Hat Summit, KubeCon) and live webinars on a variety of topics ranging from overview topics on container and cloud-native development to deep dives on particular technologies and practices"
             ]
         },
         {
