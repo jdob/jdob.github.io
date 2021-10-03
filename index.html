@@ -1,10 +1,10 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Jason Dobies</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/><style>@font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?9yug7q');
-  src:  url('fonts/icomoon.eot?9yug7q#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?9yug7q') format('truetype'),
-    url('fonts/icomoon.woff?9yug7q') format('woff'),
-    url('fonts/icomoon.svg?9yug7q#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?z1lat9');
+  src:  url('fonts/icomoon.eot?z1lat9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?z1lat9') format('truetype'),
+    url('fonts/icomoon.woff?z1lat9') format('woff'),
+    url('fonts/icomoon.svg?z1lat9#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,20 +24,64 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-instagram:before {
-  content: "\e905";
+.icon-gitlab .path1:before {
+  content: "\e906";
+  color: rgb(252, 109, 38);
 }
-.icon-trophy:before {
-  content: "\e605";
+.icon-gitlab .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
 }
-.icon-office:before {
-  content: "\e606";
+.icon-gitlab .path3:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(252, 109, 38);
 }
-.icon-clock:before {
-  content: "\e60a";
+.icon-gitlab .path4:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(252, 163, 38);
 }
-.icon-reddit:before {
-  content: "\e609";
+.icon-gitlab .path5:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
+}
+.icon-gitlab .path6:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(252, 109, 38);
+}
+.icon-gitlab .path7:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(252, 163, 38);
+}
+.icon-gitlab .path8:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
+}
+.icon-meetup .path1:before {
+  content: "\e901";
+  color: rgb(255, 255, 255);
+}
+.icon-meetup .path2:before {
+  content: "\e902";
+  margin-left: -1.5em;
+  color: rgb(240, 1, 1);
+}
+.icon-meetup .path3:before {
+  content: "\e903";
+  margin-left: -1.5em;
+  color: rgb(3, 3, 3);
+}
+.icon-blogger:before {
+  content: "\e900";
+}
+.icon-exercism:before {
+  content: "\e601";
 }
 .icon-telegram:before {
   content: "\e904";
@@ -147,25 +191,20 @@
 .icon-facebook:before {
   content: "\f230";
 }
-.icon-meetup .path1:before {
-  content: "\e901";
-  color: rgb(255, 255, 255);
+.icon-instagram:before {
+  content: "\e905";
 }
-.icon-meetup .path2:before {
-  content: "\e902";
-  margin-left: -1.5em;
-  color: rgb(240, 1, 1);
+.icon-trophy:before {
+  content: "\e605";
 }
-.icon-meetup .path3:before {
-  content: "\e903";
-  margin-left: -1.5em;
-  color: rgb(3, 3, 3);
+.icon-office:before {
+  content: "\e606";
 }
-.icon-blogger:before {
-  content: "\e900";
+.icon-clock:before {
+  content: "\e60a";
 }
-.icon-exercism:before {
-  content: "\e601";
+.icon-reddit:before {
+  content: "\e609";
 }
 .icon-profile:before {
   content: "\e600";
@@ -185,12 +224,6 @@
 .icon-newspaper:before {
   content: "\e607";
 }
-.icon-dots-three-horizontal:before {
-  content: "\e60b";
-}
-.icon-thumbs-up:before {
-  content: "\e604";
-}
 .icon-chevron-down:before {
   content: "\e60c";
 }
@@ -206,7 +239,6 @@
 .icon-board:before {
   content: "\e608";
 }
-
 
 .relative {
   position: relative;
@@ -247,6 +279,15 @@
 .label-keyword:last-child {
   margin-right: 0;
 }
+.label-keyword p {
+  margin: 0;
+}
+.label-keyword a {
+  color: white;
+}
+.label-keyword a:hover {
+  text-decoration: none;
+}
 .link-disguise {
   color: inherit;
 }
@@ -263,7 +304,7 @@
 }
 .fs-lg {
   font-size: 1.33333333em;
-  line-height: .75em;
+  line-height: 0.75em;
   vertical-align: -15%;
 }
 .fs-2x {
@@ -284,10 +325,11 @@
   padding: 0;
   outline: none !important;
 }
+/* the version when the icon file is last updated */
 @font-face {
   font-family: 'jst-elegant';
-  src: url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.eot?f218wo");
-  src: url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
+  src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo");
+  src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -672,12 +714,12 @@ body {
   color: #d31e40;
 }
 .link-stackoverflow {
-  color: #f48024;
+  color: #8e8e92;
 }
 .link-stackoverflow:hover,
 .link-stackoverflow:focus {
   text-decoration: none;
-  color: #c3661c;
+  color: #747479;
 }
 .link-stackexchange {
   color: #62b0df;
@@ -958,44 +1000,72 @@ body {
     page-break-before: always;
   }
 }
-</style></head><body itemscope="itemscope" itemtype="http://schema.org/Person"><div class="container-fluid"><div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i class="icon-bars"></i><span class="close-icon">&times;</span></a><nav class="floating-nav js-floating-nav"><ul class="list-unstyled"><li><a href="#work-experience"><i class="mr-10 icon-office"></i>Work Experience</a></li><li><a href="#skills"><i class="mr-10 icon-tools"></i>Skills</a></li><li><a href="#education"><i class="mr-10 icon-graduation-cap"></i>Education</a></li><li><a href="#publications"><i class="mr-10 icon-newspaper"></i>Publications</a></li></ul></nav><section class="col-md-3 card-wrapper profile-card-wrapper affix"><div class="card profile-card"><span class="profile-pic-container"><div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100" alt="Jason Dobies" src="./headshot-box.jpg" itemprop="image"/></div><div class="name-and-profession text-center"><h3 itemprop="name"><b>Jason Dobies</b></h3><h5 class="text-muted" itemprop="jobTitle"></h5></div></span><hr/><div class="contact-details clearfix"><div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span><span class="info">New Jersey, US</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-link"></i></span><span class="info"><a href="http://jdob.github.io" target="_blank">http://jdob.github.io</a></span></div></div><hr/><div class="social-links text-center"><div><a class="fs-2x social-link link-github icon-github" href="http://github.com/jdob" target="_blank" data-toggle="tooltip" title="Jason Dobies on GitHub"></a><a class="fs-2x social-link link-linkedin icon-linkedin" href="https://www.linkedin.com/in/jasondobies/" target="_blank" data-toggle="tooltip" title="Jason Dobies on LinkedIn"></a></div></div></div></section><section class="col-md-9 card-wrapper pull-right"><div class="card background-card"><h4 class="text-uppercase">Background</h4><hr/><div class="background-details"><div class="detail" id="work-experience"><div class="icon"><i class="fs-lg icon-office"></i><span class="mobile-title">Work Experience</span></div><div class="info"><h4 class="title text-uppercase">Work Experience</h4><ul class="list-unstyled clear-margin"><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Senior Principal Developer Advocate</strong>,&nbsp;<a href="http://redhat.com" target="_blank">Red Hat</a></p><p class="text-muted"><small><span class="space-right">Sep, 2016 - Present</span></small></p><div class="mop-wrapper space-bottom"><p>Team goals are to build developer awareness and excitement for Red Hat OpenShift and Kubernetes.</p>
-</div><ul><li class="mop-wrapper"><p>Responsible for the creation of developer-focused content including sample applications, demos, workshops, documentation, and talks.</p>
-</li><li class="mop-wrapper"><p>Developer outreach through conferences, including speaking sessions, running workshops, education events, and supporting hands-on labs for conference attendees.</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>
-  Technical Marketing Manager</strong>,&nbsp;<a href="http://redhat.com" target="_blank">Red Hat</a></p><p class="text-muted"><small><span class="space-right">Sep, 2016 - Present</span></small></p><div class="mop-wrapper space-bottom"><p>Lead for technical strategy and direction for ISV partners in the OpenShift ecosystem</p>
+</style></head><body itemscope="itemscope" itemtype="http://schema.org/Person"><div class="container-fluid"><div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i class="icon-bars"></i><span class="close-icon">&times;</span></a><nav class="floating-nav js-floating-nav"><ul class="list-unstyled"><li><a href="#work-experience"><i class="mr-10 icon-office"></i>Work Experience</a></li><li><a href="#skills"><i class="mr-10 icon-tools"></i>Skills</a></li><li><a href="#education"><i class="mr-10 icon-graduation-cap"></i>Education</a></li><li><a href="#publications"><i class="mr-10 icon-newspaper"></i>Publications</a></li></ul></nav><section class="col-md-3 card-wrapper profile-card-wrapper affix"><div class="card profile-card"><span class="profile-pic-container"><div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100" alt="Jason Dobies" src="http://downloads.dobtech.io/headshot/headshot-box.jpg" itemprop="image"/></div><div class="name-and-profession text-center"><h3 itemprop="name"><b>Jason Dobies</b></h3><h5 class="text-muted" itemprop="jobTitle"></h5></div></span><hr/><div class="contact-details clearfix"><div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span><span class="info">New Jersey, US</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><a class="link-disguise" href="mailto:jason_dobies@yahoo.com" itemprop="email">jason_dobies@yahoo.com</a></span></div></div><hr/><div class="social-links text-center"><div><a class="fs-2x social-link link-github icon-github" href="http://github.com/jdob" target="_blank" data-toggle="tooltip" title="Jason Dobies on GitHub"></a><a class="fs-2x social-link link-linkedin icon-linkedin" href="https://www.linkedin.com/in/jdob/" target="_blank" data-toggle="tooltip" title="Jason Dobies on LinkedIn"></a></div></div></div></section><section class="col-md-9 card-wrapper pull-right"><div class="card background-card"><h4 class="text-uppercase">Background</h4><hr/><div class="background-details"><div class="detail" id="work-experience"><div class="icon"><i class="fs-lg icon-office"></i><span class="mobile-title">Work Experience</span></div><div class="info"><h4 class="title text-uppercase">Work Experience</h4><ul class="list-unstyled clear-margin"><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Senior Principal Developer Advocate</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Sep, 2016 - Present</span></small></p><div class="mop-wrapper space-bottom"><p>Developer Relations Lead responsible for managing a team of six other evangelists. Our team goals are to build developer awareness and excitement for Red Hat OpenShift and Kubernetes, along with supporting technologies.</p>
+</div><ul><li class="mop-wrapper"><p>Managing a team of six evangelists, with responsibilities including:</p>
+</li><li class="mop-wrapper"><ul>
+<li>Providing guidance and direction on advocacy.</li>
+</ul>
+</li><li class="mop-wrapper"><ul>
+<li>Mentorship for junior members and interns.</li>
+</ul>
+</li><li class="mop-wrapper"><ul>
+<li>Resource management, including everything from team workloads to budget.</li>
+</ul>
+</li><li class="mop-wrapper"><p>Creation and presentation of live content, including both in person and virtual events, focusing on education and awareness of product capabilities.</p>
+</li><li class="mop-wrapper"><p>Creation and maintenance of self-drive content for learning and evaluating the product portfolio.</p>
+</li><li class="mop-wrapper"><p>Creation of static evangelist content, including articles, cheat sheets, tutorials, and books.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Principal Technical Marketing Manager</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Sep, 2016 - Present</span></small></p><div class="mop-wrapper space-bottom"><p>Lead for technical strategy and direction for ISV partners in the OpenShift ecosystem</p>
 </div><ul><li class="mop-wrapper"><p>Worked with partners to architect a technical integration between their products and OpenShift Container Platform across a variety of topics including network plugins, storage plugins, image scanning, runtime security, and containerized product support</p>
 </li><li class="mop-wrapper"><p>Created and maintained technical assets for the enablement of OpenShift partners and customers, including demo applications, documentation, blog entries, and presentations</p>
 </li><li class="mop-wrapper"><p>Presenter at both conferences (e.g. Red Hat Summit, KubeCon) and live webinars on a variety of topics ranging from overview topics on container and cloud-native development to deep dives on particular technologies and practices</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Principal Software Engineer</strong>,&nbsp;<a href="http://redhat.com" target="_blank">Red Hat</a></p><p class="text-muted"><small><span class="space-right">Oct, 2013 - Sep, 2016</span><span><i class="icon-clock mr-5"></i>2 years 10 months</span></small></p><div class="mop-wrapper space-bottom"><p>Developer and Team Lead for projects related to Red Hat OpenStack with the following responsibilities:</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Principal Software Engineer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Oct, 2013 - Sep, 2016</span><span><i class="icon-clock mr-5"></i>2 years 10 months</span></small></p><div class="mop-wrapper space-bottom"><p>Developer and Team Lead for projects related to Red Hat OpenStack with the following responsibilities:</p>
 </div><ul><li class="mop-wrapper"><p>Active upstream developer on the Heat project and core developer on the TripleO project</p>
 </li><li class="mop-wrapper"><p>Team Lead for the management API team for Red Hat OpenStack Platform director</p>
 </li><li class="mop-wrapper"><p>Release lead for the Red Hat OpenStack director 9.0 release</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Principal Software Engineer</strong>,&nbsp;<a href="http://redhat.com" target="_blank">Red Hat</a></p><p class="text-muted"><small><span class="space-right">Jul, 2006 - Sep, 2013</span><span><i class="icon-clock mr-5"></i>7 years 2 months</span></small></p><div class="mop-wrapper space-bottom"><p>Team lead for the Pulp project (http://pulpproject.org) with the following responsibilities:</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Principal Software Engineer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Jul, 2006 - Sep, 2013</span><span><i class="icon-clock mr-5"></i>7 years 2 months</span></small></p><div class="mop-wrapper space-bottom"><p>Team lead for the Pulp project (http://pulpproject.org) with the following responsibilities:</p>
 </div><ul><li class="mop-wrapper"><p>Designed the architecture for the v2 iteration, expanding the RPM-centric capabilities of the initial version into a framework for supporting arbitrary types of content. This capability extends to both the admin client, allowing content type contributors to augment the client to support their particular needs, as well as the consumer agent, allowing custom management of consumer-side inventory of the given content type.</p>
 </li><li class="mop-wrapper"><p>Maintained development responsibilities across all aspects of the application, including interactions with MongoDB, REST API design and implementation, client framework and user-visible commands, and a distributed component for load balancing and fault tolerance for consumers utilizing Pulp served content.</p>
 </li><li class="mop-wrapper"><p>Functioned as the team scrum master, including facilitating scrum meetings, leading sprint review/retrospective/planning meetings, and management of the project backlog using Rally.</p>
 </li><li class="mop-wrapper"><p>Product management responsibilities include the creation and maintenance of the project roadmap, and managing the interactions and requirements with four other projects within Red Hat that are using Pulp as the basis of their content management functionality.</p>
 </li><li class="mop-wrapper"><p>Developed and maintained the build process and continuous integration servers.</p>
 </li><li class="mop-wrapper"><p>Significant contributor to the Pulp user guide (http://pulp-user-guide.readthedocs.org), Pulp developer guide and the Pulp developer blog.</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Adjunct Professor</strong>,&nbsp;<a href="http://csc.villanova.edu" target="_blank">Villanova University</a></p><p class="text-muted"><small><span class="space-right">Jan, 2008 - Present</span></small></p><div class="mop-wrapper space-bottom"><p>Adjunct professor in the Computer Science department with experience teaching the following courses:</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Adjunct Professor</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Jan, 2008 - Present</span></small></p><div class="mop-wrapper space-bottom"><p>Adjunct professor in the Computer Science department with experience teaching the following courses:</p>
 </div><ul><li class="mop-wrapper"><p>CSC4700 - Software Engineering (current)</p>
 </li><li class="mop-wrapper"><p>CSC4790 - Senior Projects (current)</p>
 </li><li class="mop-wrapper"><p>CSC1052 - Algorithms and Data Structures II</p>
 </li><li class="mop-wrapper"><p>CSC2053 - Algorithms and Data Structures III</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior Software Engineer</strong>,&nbsp;Gestalt LLC</p><p class="text-muted"><small><span class="space-right">Dec, 2003 - Dec, 2005</span><span><i class="icon-clock mr-5"></i>2 years</span></small></p><div class="mop-wrapper space-bottom"><p>Technical lead of team of five, utilizing aspects of Agile methodology including overseeing daily standup meetings, planning for rapidly changing requirements, and delivering software in short, feature driven iterations. Project user stories, task scheduling, and time collection is captured using XPlanner. Functioned as a contributing team member, assisting with individual growth and technical understanding of each member of the team.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior Software Engineer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Dec, 2003 - Dec, 2005</span><span><i class="icon-clock mr-5"></i>2 years</span></small></p><div class="mop-wrapper space-bottom"><p>Technical lead of team of five, utilizing aspects of Agile methodology including overseeing daily standup meetings, planning for rapidly changing requirements, and delivering software in short, feature driven iterations. Project user stories, task scheduling, and time collection is captured using XPlanner. Functioned as a contributing team member, assisting with individual growth and technical understanding of each member of the team.</p>
 </div><ul><li class="mop-wrapper"><p>Responsible for all aspects of the development lifecycle, including requirements gathering/documentation, high level architecture, system and component design, implementation, build process creation, testing, and live deployment.</p>
 </li><li class="mop-wrapper"><p>The application is a distributed, clustered web application exposing external services via web services through hand-crafted, WS-I basic profile compliant WSDLs. Data is shared within the cluster through a database access layer developed using Hibernate. Internal message passing is handled through a JMS abstraction to allow components to be started and shutdown independent of knowledge of each other.</p>
 </li><li class="mop-wrapper"><p>Designed and developed reusable, extensible build framework using Apache Ant. The framework serves as a base for each subproject on the contract, providing a standard set of functionality with minimal configuration by each subproject.</p>
 </li><li class="mop-wrapper"><p>Provided on site installation and support for the Joint Forces Command Limited Objective Experiment (JFCOM LOE) through which the application partook in integration tests with similar military software, including the capture and later incorporation of operator feedback.</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Consultant</strong>,&nbsp;DTM Systems</p><p class="text-muted"><small><span class="space-right">Dec, 2002 - Dec, 2003</span><span><i class="icon-clock mr-5"></i>1 year</span></small></p><div class="mop-wrapper space-bottom"><p>Designed, developed, and maintained corporate web site for Subaru of America, including:</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Consultant</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Dec, 2002 - Dec, 2003</span><span><i class="icon-clock mr-5"></i>1 year</span></small></p><div class="mop-wrapper space-bottom"><p>Designed, developed, and maintained corporate web site for Subaru of America, including:</p>
 </div><ul><li class="mop-wrapper"><p>Integration with Interwoven Teamsite to provide dynamic content to the web site</p>
 </li><li class="mop-wrapper"><p>Implemented JDBC connectivity with Oracle 9.0.2 database</p>
 </li><li class="mop-wrapper"><p>Acted as project manager for J2EE redesign of corporate intranet web site, with responsibilities including requirements gathering, architectural design, implementation, and configuration management duties.</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Software Engineer</strong>,&nbsp;Hewlett-Packard</p><p class="text-muted"><small><span class="space-right">May, 2001 - Dec, 2002</span><span><i class="icon-clock mr-5"></i>1 year 7 months</span></small></p><div class="mop-wrapper space-bottom"></div><ul><li class="mop-wrapper"><p>Developed patches and enhancements for Total-e-Server, HP Application Server and the accompanying J2EE development tool RadPak, specifically in the following areas: CMP mapping file generation, ANT script generation</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Software Engineer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">May, 2001 - Dec, 2002</span><span><i class="icon-clock mr-5"></i>1 year 7 months</span></small></p><div class="mop-wrapper space-bottom"></div><ul><li class="mop-wrapper"><p>Developed patches and enhancements for Total-e-Server, HP Application Server and the accompanying J2EE development tool RadPak, specifically in the following areas: CMP mapping file generation, ANT script generation</p>
 </li><li class="mop-wrapper"><p>Provided solutions to customers developing and deploying J2EE applications on HP Application Server, including technical aspects such as EJB, JSP, and JDBC as well as concepts pertaining to design patterns, performance tuning, and overall application design architecture</p>
 </li><li class="mop-wrapper"><p>Provided solutions to customers developing and deploying Web Services-based applications, including complex data type mapping, UDDI registry configuration, and client proxy customization, as well as proper design patterns and integration with J2EE applications</p>
 </li><li class="mop-wrapper"><p>Taught internal seminars regarding advanced Java concepts such as Swing, Threading, Collections, and Networking with a focus on Sun Certification</p>
-</li></ul></div></li></ul></div></div><div class="detail" id="skills"><div class="icon"><i class="fs-lg icon-tools"></i><span class="mobile-title">Skills</span></div><div class="info"><h4 class="title text-uppercase">Skills</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested card-skills"><div class="skill-info"><strong>Programming (Professional)</strong><div class="space-top labels"><span class="label label-keyword">Python</span><span class="label label-keyword">Java</span><span class="label label-keyword">Javascript</span><span class="label label-keyword">Django</span><span class="label label-keyword">Node.js</span><span class="label label-keyword">React</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Programming (Academic/Hobby)</strong><div class="space-top labels"><span class="label label-keyword">Ruby</span><span class="label label-keyword">Bash</span><span class="label label-keyword">PHP</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Containers &amp; Virtualization</strong><div class="space-top labels"><span class="label label-keyword">OpenShift</span><span class="label label-keyword">Kubernetes</span><span class="label label-keyword">Docker</span><span class="label label-keyword">AWS</span><span class="label label-keyword">OpenStack</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Operating Systems</strong><div class="space-top labels"><span class="label label-keyword">Red Hat Enterprise Linux</span><span class="label label-keyword">Fedora</span><span class="label label-keyword">macOS</span></div></div></li></ul></div></div></div><div class="detail" id="education"><div class="icon"><i class="fs-lg icon-graduation-cap"></i><span class="mobile-title">Education</span></div><div class="info"><h4 class="title text-uppercase">Education</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Software Engineering, M.S.,&nbsp;</strong>Drexel University</p><p class="text-muted clear-margin"><small>Sep, 2003 - May, 2007</small></p><i></i></div></li><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Computer Science, B.S.,&nbsp;</strong>Villanova University</p><p class="text-muted clear-margin"><small>Sep, 1997 - May, 2001</small></p><i></i></div></li></ul></div></div></div><div class="detail" id="publications"><div class="icon"><i class="fs-lg icon-newspaper"></i><span class="mobile-title">Publications</span></div><div class="info"><h4 class="title text-uppercase">Publications</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin"><strong><a href="https://blog.openshift.com/author/jdobiesredhat-com/" target="_blank">OpenShift Blog</a>&nbsp;,&nbsp;</strong>Red Hat</p><p class="text-muted"><small>Published on: undefined</small></p><div class="mop-wrapper"><p>A variety of blog posts related to the OpenShift product and its ecosystem.</p>
+</li></ul></div></li></ul></div></div><div class="detail" id="skills"><div class="icon"><i class="fs-lg icon-tools"></i><span class="mobile-title">Skills</span></div><div class="info"><h4 class="title text-uppercase">Skills</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested card-skills"><div class="skill-info"><strong>Programming (Professional)</strong><div class="space-top labels"><span class="label label-keyword"><p>Python</p>
+</span><span class="label label-keyword"><p>Java</p>
+</span><span class="label label-keyword"><p>Javascript</p>
+</span><span class="label label-keyword"><p>Django</p>
+</span><span class="label label-keyword"><p>Node.js</p>
+</span><span class="label label-keyword"><p>React</p>
+</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Programming (Academic/Hobby)</strong><div class="space-top labels"><span class="label label-keyword"><p>Ruby</p>
+</span><span class="label label-keyword"><p>Bash</p>
+</span><span class="label label-keyword"><p>PHP</p>
+</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Containers &amp; Virtualization</strong><div class="space-top labels"><span class="label label-keyword"><p>OpenShift</p>
+</span><span class="label label-keyword"><p>Kubernetes</p>
+</span><span class="label label-keyword"><p>Docker</p>
+</span><span class="label label-keyword"><p>AWS</p>
+</span><span class="label label-keyword"><p>OpenStack</p>
+</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Operating Systems</strong><div class="space-top labels"><span class="label label-keyword"><p>Red Hat Enterprise Linux</p>
+</span><span class="label label-keyword"><p>Fedora</p>
+</span><span class="label label-keyword"><p>macOS</p>
+</span></div></div></li></ul></div></div></div><div class="detail" id="education"><div class="icon"><i class="fs-lg icon-graduation-cap"></i><span class="mobile-title">Education</span></div><div class="info"><h4 class="title text-uppercase">Education</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Software Engineering, M.S.,&nbsp;</strong>Drexel University</p><p class="text-muted clear-margin"><small>Sep, 2003 - May, 2007</small></p><i></i></div></li><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Computer Science, B.S.,&nbsp;</strong>Villanova University</p><p class="text-muted clear-margin"><small>Sep, 1997 - May, 2001</small></p><i></i></div></li></ul></div></div></div><div class="detail" id="publications"><div class="icon"><i class="fs-lg icon-newspaper"></i><span class="mobile-title">Publications</span></div><div class="info"><h4 class="title text-uppercase">Publications</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin"><strong>Kubernetes Operators, </strong>O'Reilly Media</p><p class="text-muted"><small>Published on: undefined</small></p><div class="mop-wrapper"><p>Operators are a way of packaging, deploying, and managing Kubernetes applications. A Kubernetes application doesn’t just run on Kubernetes; it’s composed and managed in Kubernetes terms. Operators add application-specific operational knowledge to a Kubernetes cluster, making it easier to automate complex, stateful applications and to augment the platform. Operators can coordinate application upgrades seamlessly, react to failures automatically, and streamline repetitive maintenance like backups.</p>
+</div></div></li><li class="card card-nested"><div class="content"><p class="clear-margin"><strong>OpenShift Blog, </strong>Red Hat</p><p class="text-muted"><small>Published on: undefined</small></p><div class="mop-wrapper"><p>A variety of blog posts related to the OpenShift product and its ecosystem.</p>
 </div></div></li></ul></div></div></div></div></div></section></div></div><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script><script>$(function () {
   var toggleFloatingMenu = function() {
     $( '.js-floating-nav' ).toggleClass( 'is-visible' );

@@ -1,8 +1,9 @@
 {
     "basics": {
         "name": "Jason Dobies",
-        "website": "http://jdob.github.io",
-        "picture": "./headshot-box.jpg",
+        "picture": "http://downloads.dobtech.io/headshot/headshot-box.jpg",
+        "email": "jason_dobies@yahoo.com",
+        "url": "https://jdob.github.io",
         "location": {
             "countryCode": "US",
             "region": "New Jersey"
@@ -15,7 +16,7 @@
             },
             {
                 "network": "LinkedIn",
-                "username": "jasondobies",
+                "username": "jdob",
                 "url": "https://www.linkedin.com/in/jdob/"
             }
         ]
@@ -29,9 +30,9 @@
             "summary": "Developer Relations Lead responsible for managing a team of six other evangelists. Our team goals are to build developer awareness and excitement for Red Hat OpenShift and Kubernetes, along with supporting technologies.",
             "highlights": [
                 "Managing a team of six evangelists, with responsibilities including:",
-                "Providing guidance and direction on advocacy.",
-                "Mentorship for junior members and interns.",
-                "Resource management, including everything from team workloads to budget.",
+                "- Providing guidance and direction on advocacy.",
+                "- Mentorship for junior members and interns.",
+                "- Resource management, including everything from team workloads to budget.",
                 "Creation and presentation of live content, including both in person and virtual events, focusing on education and awareness of product capabilities.",
                 "Creation and maintenance of self-drive content for learning and evaluating the product portfolio.",
                 "Creation of static evangelist content, including articles, cheat sheets, tutorials, and books."
@@ -146,6 +147,12 @@
         }
     ],
     "publications": [
+        {
+            "name": "Kubernetes Operators",
+            "publisher": "O'Reilly Media",
+            "website": "https://www.oreilly.com/library/view/kubernetes-operators/9781492048039/",
+            "summary": "Operators are a way of packaging, deploying, and managing Kubernetes applications. A Kubernetes application doesn’t just run on Kubernetes; it’s composed and managed in Kubernetes terms. Operators add application-specific operational knowledge to a Kubernetes cluster, making it easier to automate complex, stateful applications and to augment the platform. Operators can coordinate application upgrades seamlessly, react to failures automatically, and streamline repetitive maintenance like backups."
+        },
         {
             "name": "OpenShift Blog",
             "publisher": "Red Hat",
