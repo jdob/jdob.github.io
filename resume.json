@@ -16,7 +16,7 @@
             {
                 "network": "LinkedIn",
                 "username": "jasondobies",
-                "url": "https://www.linkedin.com/in/jasondobies/"
+                "url": "https://www.linkedin.com/in/jdob/"
             }
         ]
     },
@@ -26,10 +26,15 @@
             "position": "Senior Principal Developer Advocate",
             "website": "http://redhat.com",
             "startDate": "2016-09-01",
-            "summary": "Team goals are to build developer awareness and excitement for Red Hat OpenShift and Kubernetes.",
+            "summary": "Developer Relations Lead responsible for managing a team of six other evangelists. Our team goals are to build developer awareness and excitement for Red Hat OpenShift and Kubernetes, along with supporting technologies.",
             "highlights": [
-                "Responsible for the creation of developer-focused content including sample applications, demos, workshops, documentation, and talks.",
-                "Developer outreach through conferences, including speaking sessions, running workshops, education events, and supporting hands-on labs for conference attendees."
+                "Managing a team of six evangelists, with responsibilities including:",
+                "Providing guidance and direction on advocacy.",
+                "Mentorship for junior members and interns.",
+                "Resource management, including everything from team workloads to budget.",
+                "Creation and presentation of live content, including both in person and virtual events, focusing on education and awareness of product capabilities.",
+                "Creation and maintenance of self-drive content for learning and evaluating the product portfolio.",
+                "Creation of static evangelist content, including articles, cheat sheets, tutorials, and books."
             ]
         },
         {
